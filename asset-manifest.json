@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/payafrik-supervendor/static/css/main.95898f69.css",
+    "main.js": "/payafrik-supervendor/static/js/main.ffce2361.js",
+    "static/js/787.d0f45488.chunk.js": "/payafrik-supervendor/static/js/787.d0f45488.chunk.js",
+    "index.html": "/payafrik-supervendor/index.html",
+    "main.95898f69.css.map": "/payafrik-supervendor/static/css/main.95898f69.css.map",
+    "main.ffce2361.js.map": "/payafrik-supervendor/static/js/main.ffce2361.js.map",
+    "787.d0f45488.chunk.js.map": "/payafrik-supervendor/static/js/787.d0f45488.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95898f69.css",
+    "static/js/main.ffce2361.js"
+  ]
+}

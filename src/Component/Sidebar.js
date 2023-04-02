@@ -3,7 +3,7 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { clearStorage, fixDropdownName, getLoggedInRole, getUser } from '../functions/reusables';
 
 export default function Sidebar() {
-    const navigate = useNavigate();
+    const navigate = useNavigate(); 
     let vendorsMenu = [
         { name: "FEATURE" },
         { name: "Dashboard", link: `/dashboard`, sub: [], icon:"mdi mdi-view-dashboard-outline" },
@@ -36,18 +36,7 @@ export default function Sidebar() {
         { name: "Profile Settings", link: `/profile-settings`, sub: [], icon:"fas fa-user-circle" },
         
     ];
-    let adminMenu = [
-        // { name: "Dashboard", link: `/${getLoggedInRole()}-dashboard`, sub: [], icon:"mdi mdi-view-dashboard-outline" },
-        // { name: "Settings", link: `/${getLoggedInRole()}-settings`, sub: [], icon:"fe-settings" },
-        // {
-        //   name: "Order Management",
-        //   sub: [
-        //     { name: "VAT Collections", link: "/vat-collections" },
-        //   ],
-        //   icon:"ri-newspaper-line",
-        // },
-       
-    ];
+
 
    
 

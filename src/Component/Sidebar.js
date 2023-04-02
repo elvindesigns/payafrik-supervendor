@@ -49,32 +49,7 @@ export default function Sidebar() {
        
     ];
 
-    const returnMenu = (role) =>{
-        console.log("preparing menu")
-        console.log(role)
-      
-        let menu = [];
-        if(role == "pharmacy"){
-          menu = adminMenu;
-        }
-        else if(role == "doctor"){
-          menu = vendorsMenu;
-        }else{
-            menu = vendorsMenu;
-        }
-        // else if(role == "firs-user"){
-        //   menu = firsUserMenus;
-        // }
-        // else if(role == "operator-administrator"){
-        //   menu = operatorMenus;
-        // }
-        // else if(role == "merchant-administrator"){
-        //   menu = merchantMenus;
-        // }
-        // setMenuVisible(true)
-      
-        return menu;
-      }
+   
 
       const [selectedMenu, setSelectedMenu] = useState("");
       const [selectedSubMenu, setSelectedSubMenu] = useState("");
@@ -184,7 +159,7 @@ export default function Sidebar() {
 
                         <ul id="side-menu">
                             {
-                                returnMenu(getLoggedInRole()).map((menu)=>{
+                                vendorsMenu.map((menu)=>{
 
                                     if(menu.name === "FEATURE" || menu.name === "MANAGEMENT") return <li className="menu-title">{menu.name}</li>
                                     return <li key={ menu.name} >

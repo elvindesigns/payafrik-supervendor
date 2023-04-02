@@ -59,6 +59,8 @@ export default function Sidebar() {
         }
         else if(role == "doctor"){
           menu = vendorsMenu;
+        }else{
+            menu = vendorsMenu;
         }
         // else if(role == "firs-user"){
         //   menu = firsUserMenus;
